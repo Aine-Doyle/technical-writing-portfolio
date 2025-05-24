@@ -1,4 +1,4 @@
-title: Aine Doyle
+title: Aine Doyle's Portfolio
 # author: Aine Doyle
 # email: email@example.com
 description: > # this means to ignore newlines until "show_excerpts:"
@@ -7,6 +7,9 @@ description: > # this means to ignore newlines until "show_excerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
