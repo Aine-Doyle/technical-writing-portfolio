@@ -13,7 +13,7 @@ plugins:
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 
-cayman:
+cayman@v0.2.0:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
