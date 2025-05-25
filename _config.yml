@@ -12,7 +12,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
+cayman:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
@@ -47,11 +47,11 @@ header_pages:
 -
 
 # Build settings
-theme: minima
+theme: cayman
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
  # Google services
-google_analytics: UA-157005579-1
+# google_analytics: UA-157005579-1
