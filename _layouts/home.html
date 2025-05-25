@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+{% assign sorted_cats = site.categories | sort %}
+{% for category in sorted_cats %}
+{% assign sorted_posts = category[1] | sort: 'title' %}
+  <h2>{{ category[0] }}</h2>
+
+    {% for post in sorted_posts %}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="homerow">
+
+      <div class="homecolumn homeleft">
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+      </div>
+
+      <div class="homecolumn homeright">
+      </div>
+
+      </div>
+    {% endfor %}
+
+{% endfor %}
+
+<h2>About this site</h2>
+<h3><a href="/how/">How I built this portfolio</a></h3>
+<div class="homerow">
+<div class="homecolumn homeleft">
+<p>Read about how I used GitHub Pages, Jekyll themes, and markdown files to design and publish this portfolio.</p>
+</div>
+
+<div class="homecolumn homeright">
+</div>
+
+</div>
+
+</div>
