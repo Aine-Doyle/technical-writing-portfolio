@@ -12,11 +12,11 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-# minima:
-  # date_format: "%b %-d, %Y"
+minima:
+  date_format: "%b %-d, %Y"
 
   # generate social links in footer
- # social_links:
+  social_links:
     # twitter: jekyllrb
     # github:  ainedoyle
     # rss: rss
@@ -24,7 +24,7 @@ plugins:
     # facebook: jekyll
     # flickr:   jekyll
     # instagram:
-   # linkedin: aine-doyle-a3b752139
+    linkedin: aine-doyle-a3b752139
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
