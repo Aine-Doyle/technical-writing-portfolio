@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Aine Doyle's technical writing portfolio"
 layout: post
 ---
 
