@@ -1,5 +1,11 @@
 <html lang="en">
 	<head>
+		<script>
+			$(function () {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
 		<!--Title-->
 		<title>Writing Portfolio</title>
 		<!--Favicon-->
