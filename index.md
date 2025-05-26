@@ -209,11 +209,6 @@
 					/>
 				</a>
 			</p>
-			<legend>
-				Elsevier (Saunders) asked me to help write this first-edition
-				textbook and generously acknowledged my contribution on the
-				title page.
-			</legend>
 		</div>
 		<div class="col-sm-3">
 			<p>
@@ -246,11 +241,6 @@
 					/>
 				</a>
 			</p>
-			<legend>
-				When Healthline.com was just getting off the ground, the editors
-				asked me to write a series of "Learning Center" articles on
-				various body systems. This is one of my favorites.
-			</legend>
 		</div>
 		<div class="col-sm-3">
 			<p>
@@ -264,11 +254,6 @@
 					/>
 				</a>
 			</p>
-			<legend>
-				This piece is from a series of articles I wrote for Lighthouse
-				International, a charitable organization that supports people
-				with blindness or low vision.
-			</legend>
 		</div>
 
 		<!--BEGIN FOOTER-->
