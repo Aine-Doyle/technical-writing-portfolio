@@ -222,12 +222,6 @@
 					/>
 				</a>
 			</p>
-			<legend>
-				Biomicrofluidics technology was new when I wrote this piece a
-				few years ago on behalf of The Blue Waters Group. The article
-				profiles a Notre Dame scientist who paired up with a biotech
-				entrepreneur to develop a handheld diagnostic tool.
-			</legend>
 		</div>
 		<div class="col-sm-3">
 			<p>
