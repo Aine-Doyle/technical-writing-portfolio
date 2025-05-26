@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
+	<head>
+		
+		<script
+			const container = document.getElementById("default-cayman");
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(function () {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
+		<!--Title-->
+		<title>Writing Portfolio</title>
+		<!--Favicon-->
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+		<!--Encoding-->
+		<meta charset="UTF-8" />
+		<!--Metatext-->
+		<meta name="Portfolio" />
+		<!--SEO Keywords-->
+		<meta
+			name="keywords"
+			content="portfolio, coding-boot-camp, technical-writing, documentation, programming, engineering, slate"
+		/>
+		<!--Author-->
+		<meta name="author" content="Melissa Kinsey" />
+		<!--Viewport Dimensions-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--Bootstrap Link-->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<!-- Google Fonts Link -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!--CSS Link-->
+		<link rel="stylesheet" href="style.css" />
+	</head>
 	<body>
 		<!--NAV HEADER-->
 		<div id="header"></div>
