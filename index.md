@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# About me
+# Aine Doyle
 
 I'm a content development and technical writing professional with 5 years of experience working on Data and AI enterprise software.
 
