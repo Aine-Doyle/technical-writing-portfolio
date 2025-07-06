@@ -1,8 +1,8 @@
-title: Aine Doyle's Technical Writing Portfolio
+title: Aine Doyle's Portfolio
 # author: Aine Doyle
 # email: email@example.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Writing samples from my technical writing career at IBM.
+  Writing samples from my technical writing career at IBM
 
 show_excerpts: true # set to true to show excerpts on the homepage
 permalink: /:categories/:year/:month/:day/:title:output_ext
