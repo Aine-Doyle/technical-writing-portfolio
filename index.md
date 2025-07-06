@@ -2,12 +2,8 @@
 layout: default
 ---
 
-# Aine Doyle
-
 I am a content development and technical writing professional with 5 years of experience working on Data and AI enterprise software.
 
-- [Animations and diagrams](#animations-and-diagrams)
-- [What's new in Business Automation Workflow](#whats-new-in-business-automation-workflow)
 
 ## Animations and diagrams
 I've created and edited visual aids such as animations and diagrams to enhance the user experience in the product documentation. I use Camtasia to create animated GIFs and draw.io to create and edit diagrams.
