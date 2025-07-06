@@ -33,5 +33,5 @@ As AI technology advances, I am exploring ways to incorporate AI into my daily w
 - [Content Management Interoperability Service audit events](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/25.0.0?topic=records-filenet-content-manager-audit-log#reference_ic5_hjh_gfc__cmis_audit_events__title__1)<br>
 I used AI to convert input from the development team into a DITA XML table for the reference documentation.
 - [Content services new features and enhancements](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/25.0.0?topic=notes-whats-new-in-2500#whatsnew__content)<br>
-I used AI to generate a first-draft entry for the Content services section of the Cloud Pak for Business Automation What's New topic, which I edited for accuracy and style guide compliance.
+I prompted AI to generate a first-draft entry for the Content services section of the Cloud Pak for Business Automation What's New topic, which I edited for accuracy and style guide compliance.
 
