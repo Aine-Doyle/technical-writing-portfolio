@@ -13,9 +13,7 @@ I am a content development and technical writing professional with 5 years of ex
 I've created and edited visual aids such as animations and diagrams to enhance the user experience in the product documentation. I use Camtasia to create animated GIFs and draw.io to create and edit diagrams.
 
 - [Assigning solution layouts to roles](https://www.ibm.com/docs/en/baw/25.0.0?topic=layouts-creating-custom-solution#roles__title__1)
-
 - [Mapping input and output data for an activity in processes](https://www.ibm.com/docs/en/baw/25.0.0?topic=variables-mapping-input-output-data-activity-in-processes#taskgraphical_data_mapping__graphical_mapping_ex)
-
 - [FileNet Content Manager architecture](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/25.0.0?topic=reference-cloud-pak-business-automation-architecture#concept_gjn_4kf_zcc__fncm)
 
 ## What's new in IBM Business Automation Workflow
