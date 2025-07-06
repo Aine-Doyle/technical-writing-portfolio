@@ -2,13 +2,12 @@
 layout: default
 ---
 
-- [About me](#about-me)
+# About me
+I am an award-winning content developer and technical writer at IBM with 5 years of experience working on Data and AI enterprise software. Before starting my career at IBM, I worked as a technical writer intern at Akamai Technologies and a grant writer intern at UMass Medical School. In addition to my work experience, I earned my master's degree in technical communication from North Carolina State University and my bachelor's degree in English Literature from the College of the Holy Cross.
+
 - [Animations and diagram](#animations-and-diagrams)
 - [What's new in IBM Business Automation Workflow](#whats-new-in-ibm-business-automation-workflow)
 - [Generative AI](#generative-ai)
-
-# About me
-I am an award-winning content developer and technical writer at IBM with 5 years of experience working on Data and AI enterprise software. Before starting my career at IBM, I worked as a technical writer intern at Akamai Technologies and a grant writer intern at UMass Medical School. In addition to my work experience, I earned my master's degree in technical communication from North Carolina State University and my bachelor's degree in English Literature from the College of the Holy Cross.
 
 # Animations and diagrams
 I've created and edited visual aids such as animations and diagrams to enhance the user experience in the product documentation. I use Camtasia to create animated GIFs and draw.io to create and edit diagrams.
