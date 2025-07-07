@@ -55,4 +55,4 @@ plugins:
  - jekyll-seo-tag
 
  # Google services
-# google_analytics: UA-157005579-1
+google_analytics: G-8R5BRFLXLQ
