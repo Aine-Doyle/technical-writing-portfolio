@@ -5,7 +5,7 @@ title: Aine Doyle's Portfolio
 
 I am an [award-winning](https://www.linkedin.com/posts/aine-doyle-a3b752139_im-excited-to-share-that-ive-received-the-activity-7280758989179518976-IQ11?utm_source=share&utm_medium=member_desktop&rcm=ACoAACG_jE8B9kUxYYpmLEUOPl9DgqVo5q8C-tw) content developer and technical writer at IBM with 5 years of experience working on Data and AI enterprise software. Before starting my career at IBM, I worked as a technical writer intern at Akamai Technologies and a grant writer intern at UMass Medical School and Memorial Medical Center. In addition to my work experience, I earned my Master of Science in Technical Communication from North Carolina State University and my Bachelor of Arts in English Literature from the College of the Holy Cross.
 
-- [Animations and diagram](#animations-and-diagrams)
+- [Animations and diagrams](#animations-and-diagrams)
 - [What's new in IBM Business Automation Workflow](#whats-new-in-ibm-business-automation-workflow)
 - [Generative AI use cases](#generative-ai-use-cases)
 
