@@ -7,7 +7,7 @@ I am an [award-winning](https://www.linkedin.com/posts/aine-doyle-a3b752139_im-e
 
 - [Animations and diagram](#animations-and-diagrams)
 - [What's new in IBM Business Automation Workflow](#whats-new-in-ibm-business-automation-workflow)
-- [Generative AI](#generative-ai)
+- [Generative AI use cases](#generative-ai-use-cases)
 
 # Animations and diagrams
 I've created and edited visual aids such as animations and diagrams to enhance the user experience in the product documentation. I used Camtasia and draw.io to create and edit the following animated GIFs and diagrams:
