@@ -26,7 +26,7 @@ I lead the development of the What's new topic for the following versions of Bus
 - [24.0.0](https://www.ibm.com/docs/en/baw/24.0.x?topic=new-in-24000)
 - [23.0.2](https://www.ibm.com/docs/en/baw/23.0.x?topic=new-in-2302)
 
-## Content pattern in Cloud Pak for Business Automation
+## Content pattern in IBM Cloud Pak for Business Automation
 
 I am the sole writer for the content pattern in the IBM Cloud Pak for Business Automation (CP4BA) documentation, where I maintain and update content for capabilities such as Content Cortex, Content Cortex AI Services, and Enterprise Records. Here are some recent examples of product content I've worked on for CP4BA:
 - [Configuring Content Cortex AI Services to support external MCP clients](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=ccas-configuring-content-cortex-ai-services-support-external-mcp-clients)
