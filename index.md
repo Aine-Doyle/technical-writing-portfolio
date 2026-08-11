@@ -7,9 +7,9 @@ I am an [award-winning](https://www.linkedin.com/posts/aine-doyle-a3b752139_im-e
 
 - [Documentation](#documentation)
     - [IBM Business Automation Workflow](#ibm-business-automation-workflow)
-            - [What's new in Business Automation Workflow](#whats-new-in-business-automation-workflow)
-            - [UI content](#ui-content)
-            - [Animations](#animations)
+        - [What's new in Business Automation Workflow](#whats-new-in-business-automation-workflow)
+        - [UI content](#ui-content)
+        - [Animations](#animations)
     - [Content pattern in IBM Cloud Pak for Business Automation](#content-pattern-in-ibm-cloud-pak-for-business-automation)
 - [Generative AI use cases](#generative-ai-use-cases)
 
