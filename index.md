@@ -1,67 +1,22 @@
 ---
-layout: default
-title: Aine Doyle's Portfolio
+layout: home
+hero_title: Technical writing for enterprise Data and AI software
+hero_text: Six years of documentation, UI content, and animations for IBM Business Automation Workflow and Content Cortex, plus the way I use generative AI to work faster without lowering the bar.
 ---
 
-I am an [award-winning](https://www.linkedin.com/posts/aine-doyle-a3b752139_im-excited-to-share-that-ive-received-the-activity-7280758989179518976-IQ11?utm_source=share&utm_medium=member_desktop&rcm=ACoAACG_jE8B9kUxYYpmLEUOPl9DgqVo5q8C-tw) content developer and technical writer at IBM with 6 years of experience working on Data and AI enterprise software. Before starting my career at IBM, I worked as a technical writer intern at Akamai Technologies and a grant writer intern at UMass Memorial Medical Center. In addition to my work experience, I earned my Master of Science in Technical Communication from North Carolina State University, and my Bachelor of Arts in English Literature from the College of the Holy Cross.
+I’m an [award-winning](https://www.linkedin.com/posts/aine-doyle-a3b752139_im-excited-to-share-that-ive-received-the-activity-7280758989179518976-IQ11) content developer and technical writer at IBM with 6 years of experience working on Data and AI enterprise software.
 
-- [Documentation](#documentation)
-    - [IBM Business Automation Workflow](#ibm-business-automation-workflow)
-        - [What's new in Business Automation Workflow](#whats-new-in-business-automation-workflow)
-        - [UI content](#ui-content)
-        - [Animations](#animations)
-    - [Content pattern in IBM Cloud Pak for Business Automation](#content-pattern-in-ibm-cloud-pak-for-business-automation)
-- [Generative AI use cases](#generative-ai-use-cases)
+## Featured projects
 
-# Documentation 
+{% assign featured = site.projects | where: "featured", true | sort: "order" %}
+{% include project-list.html projects=featured %}
 
-## IBM Business Automation Workflow
+[See all projects]({{ '/projects/' | relative_url }})
 
-### What's new in Business Automation Workflow
-The What's new in IBM Business Automation Workflow topic highlights new IBM Business Automation Workflow features for both current and prospective clients. I collaborate with product management, developers, and other stakeholders to write engaging entries for each product version release.
+## Generative AI in my workflow
 
-I lead the development of the What's new topic for the following versions of Business Automation Workflow:
+I use generative AI to increase productivity and improve IBM’s product documentation, and I review and edit everything it produces for accuracy and compliance with IBM style guidelines. [See how I use it]({{ '/generative-ai/' | relative_url }}).
 
-- [26.0.0](https://www.ibm.com/docs/en/baw/26.0.x?topic=information-whats-new-in-2600)
-- [25.0.1](https://www.ibm.com/docs/en/baw/25.0.x?topic=new-whats-in-25010)
-- [25.0.0](https://www.ibm.com/docs/en/baw/25.0.x?topic=information-whats-new-in-25000)
-- [24.0.1](https://www.ibm.com/docs/en/baw/24.0.x?topic=new-in-24010)
-- [24.0.0](https://www.ibm.com/docs/en/baw/24.0.x?topic=new-in-24000)
-- [23.0.2](https://www.ibm.com/docs/en/baw/23.0.x?topic=new-in-2302)
+## About me
 
-### Animations
-
-I've created and edited visual animations with Camtasia to enhance the user experience in the Business Automation Workflow documentation:
-
-- [Assigning solution layouts to roles](https://www.ibm.com/docs/en/baw/26.0.0?topic=layouts-creating-custom-solution#roles__title__1)
-- [Mapping input and output data for an activity in processes or human service](https://www.ibm.com/docs/en/baw/26.0.x?topic=dpv-mapping-input-output-data-activity-in-processes-human-service)
-
-
-### UI content
-
-In addition to writing product documentation, I frequently contribute UI copy to the Business Automation Workflow product. The following links contain screenshots of text I contributed to the Business Automation Workflow user interface:
-
-- [Using the AI-powered Authoring Assistant](https://www.ibm.com/docs/en/baw/26.0.x?topic=process-using-authoring-assistant)
-- [Assigning solution layouts to roles](https://www.ibm.com/docs/en/baw/26.0.x?topic=layouts-creating-custom-solution#roles__title__1)
-- [Mapping input and output data for an activity in processes or human service](https://www.ibm.com/docs/en/baw/26.0.x?topic=dpv-mapping-input-output-data-activity-in-processes-human-service)
-
-## Content pattern in IBM Cloud Pak for Business Automation
-
-I am the sole writer for the content pattern in the IBM Cloud Pak for Business Automation (CP4BA) documentation, where I maintain and update content for capabilities such as Content Cortex, Content Cortex AI Services, and Enterprise Records. Here are some recent examples of product content I've worked on for CP4BA:
-
-- [Configuring Content Cortex AI Services to support external MCP clients](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=ccas-configuring-content-cortex-ai-services-support-external-mcp-clients)
-- [Automation capabilities > Content services](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=capabilities-content-services)
-- [Installing a CP4BA Content Cortex production deployment](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=deployments-installing-cp4ba-content-cortex-production-deployment)
-
-
-# Generative AI use cases
-
-As AI technology advances, I have been incorporating AI into my daily workflows and use generative AI to increase productivity and enhance IBM's product documentation. All content generated by AI is reviewed and edited for accuracy and compliance with IBM style guidelines.
-
-- [Content Cortex rebranding](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=notes-whats-new-in-2600#whatsnew__rename)<br>
-Lead the initiative of using conditional search and replace with AI to rebrand IBM FileNet Content Manager into IBM Content Cortex for the Cloud Pak for Business Automation documentation.
-- [Content Management Interoperability Service audit events](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=records-filenet-content-manager-audit-log#reference_ic5_hjh_gfc__cmis_audit_events__title__1)<br>
-Leveraged AI to convert input from the development team into a DITA definition list for the reference documentation.
-- [Content services new features and enhancements](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/25.0.1?topic=notes-whats-new-in-2500#whatsnew__content)<br>
-I prompted AI to generate a first-draft entry for the Content services section of the Cloud Pak for Business Automation What's New topic, which I edited for accuracy and style guide compliance.
-
+Before IBM, I was a technical writer intern at Akamai Technologies and a grant writer intern at UMass Memorial Medical Center. I hold a Master of Science in Technical Communication from North Carolina State University. [More about me]({{ '/about/' | relative_url }}).

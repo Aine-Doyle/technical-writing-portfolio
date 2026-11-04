@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="project">
+  <p class="breadcrumb"><a href="{{ '/projects/' | relative_url }}">Projects</a></p>
+  <h1>{{ page.title }}</h1>
+  <p class="lede">{{ page.summary }}</p>
+
+  <div class="project-layout">
+    <aside class="at-a-glance" aria-label="Project details">
+      <h2>At a glance</h2>
+      <dl>
+        {% if page.product %}<dt>Product</dt><dd>{{ page.product }}</dd>{% endif %}
+        {% if page.role %}<dt>My role</dt><dd>{{ page.role }}</dd>{% endif %}
+        {% if page.audience %}<dt>Audience</dt><dd>{{ page.audience }}</dd>{% endif %}
+        {% if page.collaborators %}<dt>Worked with</dt><dd>{{ page.collaborators }}</dd>{% endif %}
+        {% if page.tools %}<dt>Tools</dt><dd>{{ page.tools }}</dd>{% endif %}
+      </dl>
+    </aside>
+
+    <div class="project-text">
+      {{ content }}
+
+      {% if page.samples %}
+        <h2>Samples</h2>
+        <ul class="sample-list">
+          {% for s in page.samples %}
+            <li><a href="{{ s.url }}">{{ s.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <p class="back-link"><a href="{{ '/projects/' | relative_url }}">Back to all projects</a></p>
+    </div>
+  </div>
+</article>

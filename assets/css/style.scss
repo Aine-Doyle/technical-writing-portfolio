@@ -1,0 +1,202 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* ------------------------------------------------------------------
+   Design tokens. Change colors here and the whole site follows.
+   The header gradient keeps Cayman's blue-to-teal-green feel; the
+   green end is deepened so white text passes WCAG AA contrast.
+------------------------------------------------------------------- */
+:root {
+  --header-from: #155799;
+  --header-to: #157878;
+  --teal: #157878;
+  --teal-deep: #0e5959;
+  --teal-link: #0d6666;
+  --mist: #eef6f5;
+  --ink: #1c2a2b;
+  --muted: #4d6366;
+  --rule: #c9dcda;
+  --serif: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+a:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+
+/* ---------- Header and navigation ---------- */
+.page-header {
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  background-color: var(--header-to);
+  background-image: linear-gradient(120deg, var(--header-from), var(--header-to));
+}
+.page-header a:focus-visible { outline-color: #fff; }
+
+.header-inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+}
+.site-title {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #fff;
+  text-decoration: none;
+}
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 0.25rem 0;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover { border-bottom-color: rgba(255, 255, 255, 0.75); }
+.site-nav a[aria-current="page"] { border-bottom-color: #fff; font-weight: 600; }
+
+/* ---------- Home hero ---------- */
+.hero {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3.5rem;
+}
+.hero-title {
+  max-width: 21em;
+  margin: 0 0 1rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.9rem, 4.5vw, 3rem);
+  line-height: 1.15;
+  color: #fff;
+}
+.hero-text {
+  max-width: 38rem;
+  margin: 0 0 1.75rem;
+  font-size: 1.15rem;
+  color: #fff;
+}
+.hero-actions { margin: 0; display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  border: 2px solid #fff;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.button:hover { background: rgba(255, 255, 255, 0.15); }
+.button-primary { background: #fff; color: var(--teal-deep); }
+.button-primary:hover { background: var(--mist); }
+
+/* ---------- Main content ---------- */
+.main-content {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 2rem;
+  font-size: 1.0625rem;
+  color: var(--ink);
+}
+.home, .page { max-width: 40rem; }
+.project { max-width: 60rem; }
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--teal-deep);
+}
+.main-content h1 { margin: 0 0 0.75rem; font-size: clamp(1.75rem, 3.5vw, 2.25rem); }
+.main-content h2 { margin: 2.5rem 0 0.75rem; font-size: 1.4rem; }
+.main-content h3 { margin: 1.5rem 0 0.5rem; font-size: 1.15rem; }
+.main-content p { margin: 0 0 1rem; }
+
+.main-content a { color: var(--teal-link); text-decoration: underline; text-underline-offset: 0.15em; }
+.main-content a:hover { color: var(--header-from); }
+
+.lede { max-width: 38rem; font-size: 1.2rem; color: var(--muted); }
+.breadcrumb { margin: 0 0 0.75rem; font-size: 0.95rem; }
+
+/* ---------- Project list (rows, not cards) ---------- */
+.project-list {
+  list-style: none;
+  margin: 1rem 0 2rem;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+.project-list li { padding: 1.25rem 0; border-bottom: 1px solid var(--rule); }
+.project-list h3 { margin: 0 0 0.35rem; font-size: 1.2rem; }
+.project-list h3 a { color: var(--teal-deep); text-decoration: none; }
+.project-list h3 a:hover { text-decoration: underline; }
+.project-list p { margin: 0 0 0.25rem; }
+.project-list .meta { font-size: 0.95rem; color: var(--muted); }
+
+/* ---------- Case study layout ---------- */
+.project-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  gap: 2rem 3rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+.project-text { grid-column: 1; grid-row: 1; max-width: 38rem; }
+.project-text > h2:first-child { margin-top: 0; }
+.at-a-glance {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 1rem 1.25rem;
+  background: var(--mist);
+  border-left: 3px solid var(--teal);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.main-content .at-a-glance h2 { margin: 0 0 0.5rem; font-size: 1.05rem; }
+.at-a-glance dt { margin-top: 0.75rem; font-weight: 600; color: var(--teal-deep); }
+.at-a-glance dd { margin: 0; }
+.sample-list { padding-left: 1.25rem; }
+.sample-list li { margin-bottom: 0.35rem; }
+.back-link { margin-top: 2rem; }
+
+@media (max-width: 48em) {
+  .project-layout { display: block; }
+  .at-a-glance { margin-bottom: 2rem; }
+}
+
+/* ---------- Media ---------- */
+.figure { margin: 1.5rem 0; }
+.figure img { max-width: 100%; height: auto; border: 1px solid var(--rule); }
+.figure figcaption { margin-top: 0.5rem; font-size: 0.9rem; color: var(--muted); }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  max-width: 64rem;
+  margin: 2rem auto 0;
+  padding: 1.5rem 1.5rem 2.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.site-footer p { margin: 0 0 0.25rem; }
+.site-footer a { color: var(--teal-link); }

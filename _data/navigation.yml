@@ -1,0 +1,9 @@
+# Main navigation. The Resume link is added automatically from `resume` in _config.yml.
+- title: Home
+  url: /
+- title: Projects
+  url: /projects/
+- title: Generative AI
+  url: /generative-ai/
+- title: About
+  url: /about/

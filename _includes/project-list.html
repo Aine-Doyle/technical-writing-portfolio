@@ -1,0 +1,9 @@
+<ul class="project-list">
+  {% for p in include.projects %}
+    <li>
+      <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+      <p>{{ p.summary }}</p>
+      <p class="meta">{{ p.role }}</p>
+    </li>
+  {% endfor %}
+</ul>
