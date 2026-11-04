@@ -22,13 +22,22 @@ samples:
     url: "https://www.ibm.com/docs/en/baw/23.0.x?topic=new-in-2302"
 ---
 
-The What’s new in IBM Business Automation Workflow topic highlights new features for both current and prospective clients. I collaborate with product management, developers, and other stakeholders to write engaging entries for each product version release.
+## Overview
 
-I lead the development of the topic for the six versions listed under Samples.
+The What’s new in IBM Business Automation Workflow topic highlights new features for both current and prospective clients. A new version of this topic ships with every product release.
+
+## My responsibilities
+
+- Lead the development of the topic for each release. The samples below cover six versions.
+- Collaborate with product management, developers, and other stakeholders to learn about new features.
+- Write engaging entries that explain what each feature offers clients.
 
 <!--
-Add to this page:
-- How you gather and verify input for each release
-- A short excerpt or annotated screenshot of an entry you're proud of
-- Any feedback, usage, or process improvements you can point to
+Add only what is true for you (these came from the feedback, not from your site):
+- Coordinating documentation schedules and release milestones
+- Managing content reviews and formal stakeholder sign-offs
+- Validating technical information with developers
+- Following IBM style guidelines
+Then add a "Results" section: feedback, usage, or process improvements you can point to,
+and a screenshot or short excerpt of an entry you're proud of.
 -->
