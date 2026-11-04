@@ -1,7 +1,7 @@
 ---
 layout: home
 hero_title: Technical writing for enterprise Data and AI software
-hero_text: Six years of documentation, UI content, and animations for IBM Business Automation Workflow and Content Cortex, plus the way I use generative AI to work faster without lowering the bar.
+hero_text: Six years of documentation and UI content for IBM Business Automation Workflow and Content Cortex, plus the way I use generative AI to work faster without lowering the bar.
 ---
 
 I’m an [award-winning](https://www.linkedin.com/posts/aine-doyle-a3b752139_im-excited-to-share-that-ive-received-the-activity-7280758989179518976-IQ11) content developer and technical writer at IBM with 6 years of experience working on Data and AI enterprise software.
